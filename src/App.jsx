@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import WorkDetail from "./pages/WorkDetail";
 import Cursor from "./components/Cursor";
