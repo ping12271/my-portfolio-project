@@ -5,7 +5,7 @@ import Cursor from "./components/Cursor";
 
 function App() {
     return (
-        <BrowserRouter basename="/my-portfolio-project">
+        <>
             <Router>
                 <Cursor />
                 <Routes>
@@ -19,7 +19,7 @@ function App() {
                     />
                 </Routes>
             </Router>
-        </BrowserRouter>
+        </>
     );
 }
 
