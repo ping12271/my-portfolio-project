@@ -6,19 +6,17 @@ import Cursor from "./components/Cursor";
 function App() {
     return (
         <>
-            <Router>
-                <Cursor />
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<Home />}
-                    />
-                    <Route
-                        path="/work/:id"
-                        element={<WorkDetail />}
-                    />
-                </Routes>
-            </Router>
+            <Cursor />
+            <Routes>
+                <Route
+                    path="/"
+                    element={<Home />}
+                />
+                <Route
+                    path="/work/:id"
+                    element={<WorkDetail />}
+                />
+            </Routes>
         </>
     );
 }
